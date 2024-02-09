@@ -1,0 +1,58 @@
+.footer {
+    padding: 10px;
+}
+
+.boost-btn {
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.0025em;
+    text-align: center;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #5D78FF;
+    border-radius: 7px;
+    display: block;
+    border: 1px solid #5D78FF;
+    transition: all 0.2s ease-in-out;
+}
+
+.boost-btn:hover {
+    color: #5D78FF;
+    border: 1px solid #5D78FF;
+    background-color: #fff;
+}
+
+.footer-txt {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+
+    color: #001E41;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 770px) {
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 15px;
+        margin: 0 auto 64px;
+    }
+
+    .boost-btn {
+        margin: 0;
+
+    }
+
+    .footer-txt {
+        margin: 0;
+        text-align: left;
+        max-width: 440px;
+
+    }
+}
